@@ -1,7 +1,5 @@
 Dataset:  trafficstop.csv
-
 Source: Data.Gov
-
 Description: Records from all 79885 reported traffic stops for a large
 Southeastern city in 2016.
 
