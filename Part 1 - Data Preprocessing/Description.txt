@@ -1,0 +1,31 @@
+Dataset:  trafficstop.csv
+
+Source: Data.Gov
+
+Description: Records from all 79885 reported traffic stops for a large
+Southeastern city in 2016.
+
+Variables/Names
+Month 1-12  (Month)
+Reason for Stop  (RsnStop)
+Officer Race  (OffRace)
+Officer Male   (OffMale)
+Officer Years Service   (OffYrsSrv)
+Driver Race   (DrvRace)
+Driver Hispanic  (DrvHisp)
+Driver Male   (DrvMale)
+Driver Age  (DrvAge)
+Search Vehicle (SrchVhcl)
+Result of Stop (RsltStop)
+
+
+Levels for non-dichotomous variables
+Reason for Stop:  1=CheckPoint, 2=DWI, 3=Investigation, 4=Other,
+    5=Safe Movement, 6=SeatBelt, 7=Speeding, 8=StopLight/Sign,
+    9=VehicleMovement, 10=VehicleRegistry
+Officer race: Blank=NotSpecified, 1=AmericanIndian/NativeAlaska/Hawaii,
+    2=Asian/PacificIslander, 3=Black/AfricanAmerican, 4=Hispanic/Latino,
+    5=White
+Driver Race: 1=Asian, 2=Black, 3=NativeAmerican,4=Other/Unknown,5=White
+Result of Stop: 1=NoActionTaken, 2=VerbalWarning,3=WrittenWarning,
+   4=Citation, 5=Arrest
