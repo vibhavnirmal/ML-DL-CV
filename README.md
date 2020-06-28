@@ -1,2 +1,2 @@
-# 100DaysMLCode
-I am learning Machine Learning, I will be posting my codes and some brief about them here
+# Machine Learning Programs
+Currently working on various machine learning models and algorithms with different types of datasets available online.
