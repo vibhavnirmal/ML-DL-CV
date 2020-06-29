@@ -2,7 +2,7 @@
 import numpy as np
 import pandas as pd
 
-dataset = pd.read_csv("F:\\MLudemy\\MLAZ\\test\\LinearRegression\\insurance\\insurance.csv")
+dataset = pd.read_csv("F:\MLudemy\MLAZ\\100DaysMLCode\Regression\insurance\insurance.csv")
 X = dataset.iloc[:,:-1].values
 y = dataset.iloc[:,-1].values
 # y = y.reshape(len(y),1)
