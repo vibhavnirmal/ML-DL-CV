@@ -11,7 +11,7 @@ from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import OneHotEncoder
 ct = ColumnTransformer(transformers=[('encoder', OneHotEncoder(), [1, 4, 5])], remainder='passthrough')
 X = np.array(ct.fit_transform(X))
-# print(X)
+print(X)
 
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 0)
@@ -68,4 +68,4 @@ def checkPerformance(y_test, y_pred):
     return r2_score(y_test, y_pred)
 
 score = checkPerformance(y_test, y_pred)
-print(score)
+# print(score)
