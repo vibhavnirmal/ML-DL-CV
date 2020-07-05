@@ -2,8 +2,11 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-training_data = pd.read_csv("F:\\MLudemy\\MLAZ\\100DaysMLCode\\Kaggle\\titanic\\train.csv")
-testing_data = pd.read_csv("F:\\MLudemy\\MLAZ\\100DaysMLCode\\Kaggle\\titanic\\test.csv")
+training_data = pd.read_csv("F:\MLudemy\MLAZ\MachineLearningPrograms\Kaggle\\titanic\\train.csv")
+testing_data = pd.read_csv("F:\MLudemy\MLAZ\MachineLearningPrograms\Kaggle\\titanic\\test.csv")
+
+# null_columns=training_data.columns[training_data.isnull().any()]
+# print(training_data[null_columns].isnull().sum())
 
 features = ["Pclass","Sex","SibSp","Parch"]
 
