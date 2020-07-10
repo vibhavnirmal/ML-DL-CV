@@ -193,24 +193,5 @@ class Classification:
         return accuracy
 
 if __name__ == "__main__":
-    dataFilePathReg = "F:\MLudemy\MLAZ\\100DaysMLCode\modelSel\RegData.csv"
-    dataFilePathCla = "F:\MLudemy\MLAZ\\100DaysMLCode\modelSel\BreastCancerData.csv"
-    # reg = Regression(dataFilePathReg)
-    cla = Classification(dataFilePathCla)
-    # print("Simple Linear Regression Score = ",reg.simpleReg())
-
-    # print("Multiple Regression Score = ",reg.multiReg())
-    # print("Polynomial Regression Score = ",reg.polyReg())
-    # print("Desicion Tree Regression Score = ",reg.dtReg())
-    # print("Random Forest Regression Score = ",reg.rfReg())
-    # print("Support Vector Regression Score = ",reg.svReg(dataFilePath))
-
-    
-    print("Logistic Regression Score = ", cla.logisReg())
-    print("KNN Score = ", cla.knn())
-    print("Naive Bayes Score = ", cla.nbcla())
-    print("Desicion Tree Classification Score = ", cla.dtcla())
-    print("Random Forest Classification Score = ", cla.rfcla())
-    print("Support Vector Machine Score = ", cla.svm())
-    print("Kernel Support Vector Machine Score = ", cla.ksvm())
+    print("MACHINE LEARNING")
     
