@@ -11,7 +11,7 @@ An example is given in this [code](https://github.com/vibhavnirmal/MachineLearni
 
 ### Datasets I have worked upon:
 
-|: **Dataset** :|: **UsedFor** :|: **My Code** :|
+|**Dataset**|**UsedFor**|**My Code**|
 |-------  |:--------:| -------:|
 | [Titanic-Kaggle](https://www.kaggle.com/c/titanic "Titanic Dataset on Kaggle") | Classification | [Here](https://github.com/vibhavnirmal/MachineLearningPrograms/tree/master/Kaggle/titanic) |
 |[Iris-UCI](https://archive.ics.uci.edu/ml/datasets/Iris/ "Iris Dataset on UCI archive") | Classification | [Here](https://github.com/vibhavnirmal/MachineLearningPrograms/tree/master/Classification/iris) |
