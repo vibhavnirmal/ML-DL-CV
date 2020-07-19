@@ -16,18 +16,18 @@ Used for classification, predictions we get from majority of the models counts a
 Mostly used for regression and calculating probabities for classificaion models
 
 ## Advanced Ensemble Techniques:
-1. ### Stacking:
+### 1. Stacking:
 Uses predictions from different models to build a new model. The new model is used to get the predictions on test set 
 [MoreHere](https://machinelearningmastery.com/stacking-ensemble-machine-learning-with-python/)
 
-2. ### Blending:
+### 2. Blending:
 Uses validation(holdout) set from train set to make predictions. Predictions are made only on holdout set.
 The validation set and predictions are used to build a new model and then tested on test set.
 
 ### Difference between Stacking and Blending:
 The difference between stacking and blending is that Stacking uses out-of-fold predictions for the train set of the next layer (i.e meta-model), and Blending uses a validation set (let’s say, 10-15% of the training set) to train the next layer.
 
-3. ### Bagging(bootstrap aggregating):
+### 3. Bagging(bootstrap aggregating):
 Combines results of different models to get a generalized result.
 If you have models with high variance (they over-fit your data), then you are likely to benefit from using bagging. 
 Using Bagging with a biased model is not going to help.
@@ -44,7 +44,7 @@ Final predictions are determined by combining predictions from all weak models
 * Bagging meta-estimator ([BaggingClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.BaggingClassifier.html))
 * [Random Forest](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
 
-4. ### Boosting:
+### 4. Boosting:
 It is a sequential process. Where each subsequent model tries to correct errors of the previous model.
 So, the succeeding models are dependent on previous models.
 It combines many weak learners to form a strong learner.
