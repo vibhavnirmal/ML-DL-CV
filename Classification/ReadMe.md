@@ -54,6 +54,6 @@ If you have biased models, it is better to combine them with Boosting.
 #### MODELS:
 * [AdaBoost](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html)
 * [Gradient Boosting](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.GradientBoostingClassifier.html)
-* XGBoost ([ExtremeGradientBootsing](https://xgboost.readthedocs.io/en/latest/))
+* [XGBoost](https://xgboost.readthedocs.io/en/latest/)
 * [LightGBM](https://lightgbm.readthedocs.io/en/latest/) (It beats all other models when dataset is large..)
 * [CatBoost](https://catboost.ai/docs/concepts/python-reference_parameters-list.html) (No need to perform one hot encoding)
