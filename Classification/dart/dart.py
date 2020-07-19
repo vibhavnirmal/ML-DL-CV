@@ -38,19 +38,19 @@ def mode(num_list):
 
 
 # Training Set plot
-# from matplotlib.colors import ListedColormap
-# for i, j in enumerate(np.unique(y)):
-#     plt.scatter(X[y==j,0], X[y==j,1], c = ListedColormap(['coral', '#7CAE00', '#C77CFF', '#00BFC4'])(i), label = j)
-# plt.xlabel("x")
-# plt.ylabel("y")
-# plt.legend()
-# plt.show()
+from matplotlib.colors import ListedColormap
+for i, j in enumerate(np.unique(y)):
+    plt.scatter(X[y==j,0], X[y==j,1], c = ListedColormap(['coral', '#7CAE00', '#C77CFF', '#00BFC4'])(i), label = j)
+plt.xlabel("x")
+plt.ylabel("y")
+plt.legend()
+plt.show()
 
-# # Testing Set plot
-# plt.scatter(tesda_train[:,0], tesda_train[:,1])
-# plt.xlabel("x")
-# plt.ylabel("y")
-# plt.show()
+# Testing Set plot
+plt.scatter(tesda_train[:,0], tesda_train[:,1])
+plt.xlabel("x")
+plt.ylabel("y")
+plt.show()
 
 gnb = GaussianNB()
 gnb.fit(X, y)
@@ -109,14 +109,14 @@ print("accuracy_score : {:.2f} %".format(accuracy_score(tesda_test, final_pred1)
 print("accuracy_score : {:.2f} %".format(accuracy_score(tesda_test, final_pred2) * 100))
 print("accuracy_score : {:.2f} %".format(accuracy_score(tesda_test, final_pred3) * 100))
 print("\n")
-# 81.08 % without NaiveBayes
-# 72.97 % with catboost + NaiveBayes
-# 67.57 % without catboost
-# 70.27 % with randomForest
-# _________________________________________________________________________
+"""
+81.08 % without NaiveBayes
+72.97 % with catboost + NaiveBayes
+67.57 % without catboost
+70.27 % with randomForest
+"""
 
 
-# __________Using Voting Classifier______________
 v_knnc = KNeighborsClassifier(n_neighbors=1, algorithm="auto", metric="minkowski")
 v_svcl = SVC(kernel="rbf")
 v_logr = LogisticRegression(solver="newton-cg")
@@ -162,7 +162,9 @@ print("accuracy_score : {:.2f} %".format(accuracy_score(tesda_test, v_pred1) * 1
 print("accuracy_score : {:.2f} %".format(accuracy_score(tesda_test, v_pred2) * 100))
 print("accuracy_score : {:.2f} %".format(accuracy_score(tesda_test, v_pred3) * 100))
 print("\n")
-# not working with catboost
-# 78.38 % without gb
-# 70.27 % with gb
-# 81.08 % with random forest
+"""
+not working with catboost
+78.38 % without gb
+70.27 % with gb
+81.08 % with random forest
+"""
