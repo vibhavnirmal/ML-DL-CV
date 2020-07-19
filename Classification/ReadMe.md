@@ -1,6 +1,20 @@
 # Classification
+Classification is the process of finding or discovering a model or function which helps in separating the data into multiple categorical classes i.e. discrete values.
+
+In classification, data is categorized under different labels according to some parameters given in input and then the labels are predicted for the data.
 
 ## My Understandings on different models and methods:-
+
+* Logistic Regression : 
+the probabilities describing the possible outcomes of a single trial are modelled using a logistic function.
+* Naive Bayes :
+Naive Bayes algorithm based on Bayes’ theorem with the assumption of independence between every pair of features. Naive Bayes classifiers work well in many real-world situations such as document classification and spam filtering.
+* K-Nearest Neighbours :
+Neighbours based classification is a type of lazy learning as it does not attempt to construct a general internal model, but simply stores instances of the training data. Classification is computed from a simple majority vote of the k nearest neighbours of each point.
+* Decision Tree :
+Given a data of attributes together with its classes, a decision tree produces a sequence of rules that can be used to classify the data.
+* Support Vector Machine :
+Support vector machine is a representation of the training data as points in space separated into categories by a clear gap that is as wide as possible. New examples are then mapped into that same space and predicted to belong to a category based on which side of the gap they fall.
 
 ### Pros/Cons of Ensemble learning:
 
