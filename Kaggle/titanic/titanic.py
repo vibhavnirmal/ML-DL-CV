@@ -119,8 +119,9 @@ def ann():
     Y_pred = ann.predict(np.asarray(X_test).astype(np.float32))
     Y_pred = (Y_pred>0.51)
 
-    for i in range(len(Y_pred)):
-        if Y_pred[i][0] == True :
+    for i, j in enumerate(Y_pred):
+        print(i, j)
+        if Y_pred[i][0] is True :
             result.append(1)
         else :
             result.append(0)
@@ -140,8 +141,6 @@ print(pred)
 
 PassengerId = testing_data["PassengerId"] # PassengerId,Survived
 SurvivedResult = pd.DataFrame({'Survived': pred})
-results = pd.concat([PassengerId,SurvivedResult],axis=1)
-results.to_csv("F:\MLudemy\MLAZ\\100DaysMLCode\Kaggle\\titanic\_ann.csv",sep = ',',index=False)
 
 # print("Logistic Regression Score = ", logisReg())
 # print("KNN Score = ", knn())

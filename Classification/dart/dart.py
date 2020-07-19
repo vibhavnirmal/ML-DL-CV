@@ -19,8 +19,7 @@ def mode(num_list):
     mode_val = [num for num, freq in data_list.items() if freq == max_value]
     if len(mode_val) == len(num_list):
         return None
-    else:
-        return ', '.join(map(str, mode_val))
+    return ', '.join(map(str, mode_val))
 
 # Training Set plot
 # from matplotlib.colors import ListedColormap
