@@ -109,13 +109,10 @@ print("accuracy_score : {:.2f} %".format(accuracy_score(tesda_test, final_pred1)
 print("accuracy_score : {:.2f} %".format(accuracy_score(tesda_test, final_pred2) * 100))
 print("accuracy_score : {:.2f} %".format(accuracy_score(tesda_test, final_pred3) * 100))
 print("\n")
-"""
-81.08 % without NaiveBayes
-72.97 % with catboost + NaiveBayes
-67.57 % without catboost
-70.27 % with randomForest
-"""
-
+# 81.08 % without NaiveBayes
+# 72.97 % with catboost + NaiveBayes
+# 67.57 % without catboost
+# 70.27 % with randomForest
 
 v_knnc = KNeighborsClassifier(n_neighbors=1, algorithm="auto", metric="minkowski")
 v_svcl = SVC(kernel="rbf")
@@ -162,9 +159,7 @@ print("accuracy_score : {:.2f} %".format(accuracy_score(tesda_test, v_pred1) * 1
 print("accuracy_score : {:.2f} %".format(accuracy_score(tesda_test, v_pred2) * 100))
 print("accuracy_score : {:.2f} %".format(accuracy_score(tesda_test, v_pred3) * 100))
 print("\n")
-"""
-not working with catboost
-78.38 % without gb
-70.27 % with gb
-81.08 % with random forest
-"""
+# not working with catboost
+# 78.38 % without gb
+# 70.27 % with gb
+# 81.08 % with random forest
