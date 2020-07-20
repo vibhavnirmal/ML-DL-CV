@@ -16,11 +16,6 @@ Given a data of attributes together with its classes, a decision tree produces a
 * Support Vector Machine :
 Support vector machine is a representation of the training data as points in space separated into categories by a clear gap that is as wide as possible. New examples are then mapped into that same space and predicted to belong to a category based on which side of the gap they fall.
 
-### Pros/Cons of Ensemble learning:
-
-If you need to work in a probabilistic setting, ensemble methods may not work. It is known that Boosting (in its most popular forms like AdaBoost) delivers poor probability estimates.
-(If you would like to have a model that allows you to reason about your data, not only classification, you might be better off with a graphical model.)
-
 ## Simple Ensemble Techniques:
 ### MAX Voting: 
 Used for classification, predictions we get from majority of the models counts as final prediction.
@@ -71,3 +66,8 @@ If you have biased models, it is better to combine them with Boosting.
 * [XGBoost](https://xgboost.readthedocs.io/en/latest/)
 * [LightGBM](https://lightgbm.readthedocs.io/en/latest/) (It beats all other models when dataset is large..)
 * [CatBoost](https://catboost.ai/docs/concepts/python-reference_parameters-list.html) (No need to perform one hot encoding)
+
+### Pros/Cons of Ensemble learning:
+
+If you need to work in a probabilistic setting, ensemble methods may not work. It is known that Boosting (in its most popular forms like AdaBoost) delivers poor probability estimates.
+(If you would like to have a model that allows you to reason about your data, not only classification, you might be better off with a graphical model.)
