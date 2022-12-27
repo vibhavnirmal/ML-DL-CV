@@ -55,11 +55,24 @@
 - [ ] regression
 - [ ] boosting
 - [ ] bagging
-- [ ] stacking
+- [x] stacking
+
+> Boosting: Training a sequence of weak models and combining them to form a strong model
+> Each weak model -> trained on the residual errors of the previous model -> final model make more accurate predictions 
+> Improves the accuracy of models (large datasets)
+
+> Bagging: Training multiple models on different subsets of the data and then averaging the predictions. 
+> Improves the stability and generalization of the model -> reduces the variance of the model's predictions
+
+> Stacking: Training multiple models and combining their predictions 
+> Train several models on the same dataset and then using the predictions from each model as input features for the next model in the stack
+> Final prediction is made by combining the predictions from all the models in the stack using an averaging or voting method 
+> Help reducing the variance of a model and improve its overall accuracy (stacked models have different strengths and weaknesses)
+
 
 #### Q8. `____` looks at the relationship between predictors and your outcome.
 
-- [ ] Regression analysis
+- [x] Regression analysis
 - [ ] K-means clustering
 - [ ] Big data
 - [ ] Unsupervised learning
@@ -69,13 +82,13 @@
 - [ ] a data entry system
 - [ ] a data warehouse system
 - [ ] a massive data repository
-- [ ] a product recommendation system
+- [x] a product recommendation system
 
 #### Q10. What does this image illustrate?
 
-![Machine Learning Q10](images/machine-learning_Q10.jpg)
+![Machine Learning Q10](imgs/machine-learning_Q10.jpg)
 
-- [ ] a decision tree
+- [x] a decision tree
 - [ ] reinforcement learning
 - [ ] K-nearest neighbor
 - [ ] a clear trendline
