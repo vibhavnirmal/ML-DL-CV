@@ -97,12 +97,12 @@
 
 - [ ] The algorithms would help the meters access the internet.
 - [ ] The algorithms will improve the wireless connectivity.
-- [ ] The algorithms would help your organization see patterns of the data.
+- [x] The algorithms would help your organization see patterns of the data.
 - [ ] By using machine learning algorithms, you are creating an IoT device.
 
 #### Q12. To predict a quantity value. use `___`.
 
-- [ ] regression
+- [x] regression
 - [ ] clustering
 - [ ] classification
 - [ ] dimensionality reduction
@@ -111,14 +111,14 @@
 
 - [ ] It naively assumes that you will have no data.
 - [ ] It does not even try to create accurate predictions.
-- [ ] It naively assumes that the predictors are independent from one another.
+- [x] It naively assumes that the predictors are independent from one another.
 - [ ] It naively assumes that all the predictors depend on one another.
 
 #### Q14. You work for an ice cream shop and created the chart below, which shows the relationship between the outside temperature and ice cream sales. What is the best description of this chart?
 
-![Machine Learning Q14](images/machine-learning_Q14.jpg)
+![Machine Learning Q14](imgs/machine-learning_Q14.jpg)
 
-- [ ] It is a linear regression chart.
+- [x] It is a linear regression chart.
 - [ ] It is a supervised trendline chart.
 - [ ] It is a decision tree.
 - [ ] It is a clustering trend chart.
@@ -126,14 +126,14 @@
 #### Q15. How is machine learning related to artificial intelligence?
 
 - [ ] Artificial intelligence focuses on classification, while machine learning is about clustering data.
-- [ ] Machine learning is a type of artificial intelligence that relies on learning through data.
+- [x] Machine learning is a type of artificial intelligence that relies on learning through data.
 - [ ] Artificial intelligence is form of unsupervised machine learning.
 - [ ] Machine learning and artificial intelligence are the same thing.
 
 #### Q16. How do machine learning algorithms make more precise predictions?
 
 - [ ] The algorithms are typically run more powerful servers.
-- [ ] The algorithms are better at seeing patterns in the data.
+- [x] The algorithms are better at seeing patterns in the data.
 - [ ] Machine learning servers can host larger databases.
 - [ ] The algorithms can run on unstructured data.
 
@@ -533,9 +533,11 @@ Note: there are centres of clusters (C0, C1, C2).
 #### Q68. Which of the following methods can use either as an unsupervised learning or as a dimensionality reduction technique?
 
 - [ ] SVM
-- [ ] PCA
+- [X] PCA
 - [ ] LDA
 - [ ] TSNE
+
+Confirm ! LDA - supervised dimensionality reduction
 
 #### Q69. What is the main motivation for using activation functions in ANN?
 
