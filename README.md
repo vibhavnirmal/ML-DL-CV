@@ -1,14 +1,11 @@
-# Machine Learning Programs
+## Machine Learning - Deep Learning - Computer vision 
+Learning by Implementation
 
-[![CodeFactor](https://www.codefactor.io/repository/github/vibhavnirmal/machinelearningprograms/badge)](https://www.codefactor.io/repository/github/vibhavnirmal/machinelearningprograms)
+[![CodeFactor](https://www.codefactor.io/repository/github/vibhavnirmal/ml-dl-cv/badge)](https://www.codefactor.io/repository/github/vibhavnirmal/ml-dl-cv)
 
-Currently working on various machine learning models and algorithms with different types of datasets available online.
+This repository provides a basic template for implementing and understanding various machine learning algorithms. It's designed to be accessible to beginners like myself and can be easily adapted to solve a wide range of problems with minimal modifications.
 
-## My Regression and Classification template
-
-I have created a basic template for beginners like me to solve most of machine learning problems with very small changes.
-Basic changes according to the dataset is required though.
-An example is given in this [code](https://github.com/vibhavnirmal/MachineLearningPrograms/tree/master/template "ML template")
+Important: While the template aims for simplicity, some basic changes specific to your chosen dataset will be necessary. An example of such modifications is provided in the [code](https://github.com/vibhavnirmal/MachineLearningPrograms/tree/master/template "ML template")
 
 ### Datasets I have worked upon
 
@@ -21,3 +18,13 @@ An example is given in this [code](https://github.com/vibhavnirmal/MachineLearni
 |[TrafficStop](https://catalog.data.gov/dataset/police-traffic-stops-by-gender-and-ethnicity)| Data.gov |Classification/Regression|[InProgress](https://github.com/vibhavnirmal/MachineLearningPrograms/tree/master/Examples/trafficstop)|
 |[MedicalInsurance](https://www.kaggle.com/mirichoi0218/insurance)| Kaggle |Regression|[Here](https://www.kaggle.com/vibhavnirmal/insurancemodel)|
 |[Adult](https://archive.ics.uci.edu/ml/datasets/Adult)| UCI |Classification|[InProgress](https://github.com/vibhavnirmal/MachineLearningPrograms/tree/master/Examples/adult)|
+
+### Disclaimer:
+
+This template is intended as a learning tool and may not be suitable for all situations. For production-grade solutions, further customization and optimization are likely required.
+
+### Feedback:
+
+I encourage you to explore the code, experiment with different datasets, and share your feedback. Your contributions can help improve this resource for everyone.
+
+### Enjoy your Machine Learning journey!
