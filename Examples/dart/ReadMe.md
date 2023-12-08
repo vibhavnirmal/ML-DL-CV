@@ -2,7 +2,7 @@
 
 ### Overview
 
-This task involves predicting the competitor ID for unlabelled darts based on their location on a dartboard. Here's a breakdown of the problem and potential solutions:
+This task involves predicting the competitor ID for unlabelled darts based on their location on a dartboard. Here's a breakdown of the problem statement:
 
 ### Data
 
